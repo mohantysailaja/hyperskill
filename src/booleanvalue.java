@@ -48,6 +48,13 @@ public class booleanvalue {
         System.out.println(!b16 && b26);
         System.out.println(!(b16 || b26));
 
-
+        //hints:Remember that the AND operator will not evaluate the second parameter if the first provided parameter is false.
+         boolean b92 = true;
+         boolean b93 = false;
+         System.out.println(!b92 && (b93 || b92));
+//example
+        int number = 990;
+        boolean result = number > 1000 || number % 10 == 0;
+        System.out.println(result);//true
     }
 }
